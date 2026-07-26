@@ -1,0 +1,7 @@
+title: Maximiliano S. Rodriguez | Data, AI & Cloud Security
+description: "Cross-Functional Technical Specialist bridging technical execution with business strategy and security. My electromechanical base provides a unique advantage in systemic thinking for software architecture."
+theme: jekyll-theme-minimal
+url: "https://maxrodri0311.github.io"
+baseurl: "/Maxrodri0311"
+plugins:
+  - jekyll-seo-tag
