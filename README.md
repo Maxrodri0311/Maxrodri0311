@@ -1,4 +1,5 @@
 ---
+layout: default
 title: "Maximiliano S. Rodriguez | Data, AI & Cloud Security Specialist"
 description: "Cross-Functional Technical Specialist bridging technical execution with business strategy and security."
 ---
