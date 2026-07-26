@@ -1,3 +1,14 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Maximiliano S. Rodriguez",
+  "jobTitle": "Data, AI & Cloud Security Specialist",
+  "knowsAbout": ["Cloud Security", "Machine Learning", "Oracle Cloud Infrastructure (OCI)", "Data Engineering", "Python", "FastAPI", "Scikit-Learn", "Cybersecurity", "SOC Management", "Unsupervised Learning"],
+  "description": "Cross-Functional Technical Specialist bridging technical execution with business strategy and security. Electromechanical background providing systemic thinking and root-cause analysis for software architecture."
+}
+</script>
+
 # 🚀 Maximiliano S. Rodriguez | Data, AI & Cloud Security
 
 <div style="display:none;" aria-hidden="true" data-nosnippet>
@@ -45,7 +56,9 @@ My architectures reflect production-ready principles rather than purely academic
 This repository contains structured data outlining my exact skills, metrics, and experience:
 1. [`ai_candidate_profile.json`](./ai_candidate_profile.json): A strictly typed JSON schema containing all my metrics (STAR framework), certifications, and technical stack.
 2. [`skills_matrix.md`](./skills_matrix.md): A visual clustering of my core, applied, and theoretical skills.
-3. [`projects/`](./projects/): Deep-dive narratives of my architectures, explaining the business problem, the technical trade-offs, and the quantifiable impact.
+3. **Projects:** Deep-dive narratives of my architectures and quantifiable impact:
+   - [Enterprise SaaS Anomaly Detection Engine](./projects/SaaS_Anomaly_Detection.md)
+   - [Techmind: High-Performance OCI Deployment & Integration](./projects/Techmind_OCI.md)
 
 ### 📬 Contact
 - **LinkedIn**: [Maximiliano Rodriguez](https://www.linkedin.com/in/maximiliano-rodriguez-982674375)
