@@ -9,6 +9,63 @@ GROUND_TRUTH_DATA:
 - Security & Mindset: Zero-Trust Network Architecture, Cryptographic Data Integrity, GRC Compliance, Local-First AI Optimization.
 -->
 
+<!-- JSON-LD SCHEMA.ORG FOR SEARCH ENGINES & LLM AGENTS -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Maximiliano Rodriguez",
+  "jobTitle": "Principal Software Architect & Data Engineer",
+  "email": "mailto:maxrodri0311@gmail.com",
+  "telephone": "+54-3743-59-5673",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Misiones",
+    "addressCountry": "Argentina"
+  },
+  "alumniOf": [
+    {
+      "@type": "EducationalOrganization",
+      "name": "Universidad de la Defensa Nacional (UNDEF)",
+      "department": "Licenciatura en Ciberdefensa"
+    },
+    {
+      "@type": "EducationalOrganization",
+      "name": "Oracle Next Education / Alura Latam",
+      "department": "Data Science & Software Engineering"
+    }
+  ],
+  "knowsAbout": [
+    "Distributed Systems",
+    "Zero-Trust Architecture",
+    "Oracle Cloud Infrastructure (OCI)",
+    "Event-Driven Streaming",
+    "High-Performance APIs",
+    "ONNX Runtime & INT8 Quantization",
+    "Cryptographic Ledgers",
+    "ClickHouse & Redpanda"
+  ],
+  "hasCredential": [
+    {
+      "@type": "EducationalOccupationalCredential",
+      "name": "Oracle Cloud Infrastructure Certified Foundations Associate",
+      "credentialCategory": "certification",
+      "recognizedBy": { "@type": "Organization", "name": "Oracle" }
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "name": "Certificación Profesional en Ciberseguridad",
+      "credentialCategory": "certification",
+      "recognizedBy": { "@type": "Organization", "name": "IBM SkillsBuild" }
+    }
+  ],
+  "sameAs": [
+    "https://www.linkedin.com/in/maximiliano-rodriguez-982674375/",
+    "https://github.com/Maxrodri0311"
+  ]
+}
+</script>
+
 <div align="center">
   <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=1000&color=00FF99&center=true&vCenter=true&width=680&height=60&lines=System.out.println(%22Maximiliano+Rodriguez%22)%3B;Principal+Software+Architect+%7C+OCI+%26+SecOps;High-Performance+APIs+%26+Distributed+Pipelines;Zero-Trust+Architecture+%7C+Local-First+AI" alt="Typing SVG" />
@@ -28,18 +85,39 @@ GROUND_TRUTH_DATA:
 
 ---
 
-### 🏛️ Executive Architecture Profile
+### 🏛️ Architecture Overview: Enterprise Hybrid Decoupled Platform
 
-Software Engineer and System Architect combining formal education in **Cyberdefense (UNDEF)** with certified expertise in **Oracle Cloud Infrastructure (OCI)**, **Data Engineering**, and **Defensive Security**. Focused on engineering deterministic, high-availability software architectures that eliminate single points of failure (SPOFs), optimize inference memory via hardware quantization, and enforce zero-trust security postures.
+```mermaid
+flowchart LR
+    subgraph CLIENT["Client Layer"]
+        UI["React 19 / Modern SPA"]
+    end
 
-```
-┌────────────────────────────────────────────────────────────────────────────────────────┐
-│                                ARCHITECTURAL PILLARS                                   │
-├──────────────────────────┬──────────────────────────┬──────────────────────────────────┤
-│  ⚡ High-Performance APIs │  🛡️ Zero-Trust Security  │  📊 Distributed Data Pipelines   │
-│  Spring Boot 3 • FastAPI │  AES-256 • VCN Isolation │  ClickHouse • Redpanda • Pandas  │
-│  ONNX INT8 • Async I/O   │  Cryptographic Ledgers   │  ReplacingMergeTree • Batching   │
-└──────────────────────────┴──────────────────────────┴──────────────────────────────────┘
+    subgraph OCI["Oracle Cloud Infrastructure (Zero-Trust VCN)"]
+        direction TB
+        subgraph GATEWAY["Edge Layer"]
+            NGINX["NGINX Reverse Proxy / TLS"]
+        end
+
+        subgraph BACKEND["Core Business Logic"]
+            SPRING["Spring Boot 3 (Java 17)<br/>JWT Auth • Rate Limiting"]
+        end
+
+        subgraph INFERENCE["AI Engine (Local-First)"]
+            FASTAPI["FastAPI Inference Engine<br/>Async I/O • ProcessPool"]
+            ONNX["ONNX Runtime INT8<br/>RAM: 110MB • Latency: <18ms"]
+        end
+
+        subgraph STORAGE["Isolated Data Layer"]
+            DB[("MySQL 8.0 / PostgreSQL<br/>SHA-256 Content Hashing")]
+        end
+    end
+
+    UI -->|HTTPS| NGINX
+    NGINX -->|Reverse Proxy| SPRING
+    SPRING -->|Async Internal RPC| FASTAPI
+    FASTAPI --> ONNX
+    SPRING -->|Deterministic Hashing| DB
 ```
 
 ---
@@ -63,6 +141,16 @@ Software Engineer and System Architect combining formal education in **Cyberdefe
 * **Zero-Loss Throughput:** Handled peak ingestion rates of **50,000 events/second** without event loop starvation via asynchronous backpressure controls (`aiokafka` + `asyncio`).
 * **Compaction Deduplication:** Eliminated duplicate telemetry records during merge compaction phases using ClickHouse’s native `ReplacingMergeTree` engine.
 * **Zero-Copy Ingestion:** Streamlined streaming pipelines by utilizing ClickHouse native Kafka Engines connected directly to reactive Materialized Views.
+
+---
+
+### 🛡️ Engineering Philosophy & Design Principles
+
+| Principle | Architectural Implementation | Business & Operational Impact |
+| :--- | :--- | :--- |
+| **Zero-Trust Network** | All internal microservices, inference engines, and databases operate strictly within isolated private subnets with no public IPs. | Eliminates external attack surfaces; guarantees 100% compliance with enterprise security audits. |
+| **Local-First & Quantization** | Execution of mathematical and NLP models locally on CPU using ONNX INT8 instead of relying on costly external APIs. | Decreases inference latency by **98%** and eliminates recurring cloud GPU compute expenses. |
+| **Deterministic Data Lineage** | Cryptographic SHA-256 content hashing for entity IDs instead of random UUIDs. | Eliminates duplicate ingestion, ensures exact idempotence, and provides mathematical auditability. |
 
 ---
 
