@@ -40,18 +40,14 @@ def get_latest_commit_narrative():
         return "> ⚡ **Despliegues Activos:** Sincronización continua de arquitecturas y pipelines."
 
 def generate_dashboard_svgs():
-    """Genera widgets de telemetría con temas oscuros ultra-estables (TokyoNight / Cyber)."""
+    """Genera widgets de telemetría con tarjetas de alta estabilidad y estética TokyoNight."""
     html = f'''<div align="center">
-  <img height="165em" src="https://github-readme-stats.vercel.app/api?username={USERNAME}&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
-  <img height="165em" src="https://github-readme-streak-stats.herokuapp.com/?user={USERNAME}&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  <img width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username={USERNAME}&theme=tokyonight" alt="GitHub Profile Details" />
+  <img width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username={USERNAME}&theme=tokyonight" alt="Top Languages by Commit" />
 </div>
 <br>
 <div align="center">
-  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username={USERNAME}&theme=tokyo-night&hide_border=true&area=true" alt="Activity Graph" />
-</div>
-<br>
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username={USERNAME}&layout=donut&theme=tokyonight&hide_border=true&langs_count=6" alt="Top Languages" />
+  <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username={USERNAME}&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Activity Graph" />
 </div>'''
     return html
 

@@ -128,16 +128,12 @@ Software Engineer and System Architect combining formal education in **Cyberdefe
 
 <!-- START_DASHBOARD -->
 <div align="center">
-  <img height="165em" src="https://github-readme-stats.vercel.app/api?username=Maxrodri0311&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
-  <img height="165em" src="https://github-readme-streak-stats.herokuapp.com/?user=Maxrodri0311&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  <img width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Maxrodri0311&theme=tokyonight" alt="GitHub Profile Details" />
+  <img width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Maxrodri0311&theme=tokyonight" alt="Top Languages by Commit" />
 </div>
 <br>
 <div align="center">
-  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=Maxrodri0311&theme=tokyo-night&hide_border=true&area=true" alt="Activity Graph" />
-</div>
-<br>
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Maxrodri0311&layout=donut&theme=tokyonight&hide_border=true&langs_count=6" alt="Top Languages" />
+  <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=Maxrodri0311&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Activity Graph" />
 </div>
 <!-- END_DASHBOARD -->
 
