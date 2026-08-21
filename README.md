@@ -128,12 +128,16 @@ Software Engineer and System Architect combining formal education in **Cyberdefe
 
 <!-- START_DASHBOARD -->
 <div align="center">
-  <img height="165em" src="https://github-readme-stats.vercel.app/api?username=Maxrodri0311&show_icons=true&hide_title=true&count_private=true&include_all_commits=true&theme=radical&bg_color=0b0c10&text_color=c5c6c7&icon_color=66fcf1&title_color=45a29e&border_color=1f2833" alt="GitHub Stats" />
-  <img height="165em" src="https://github-readme-streak-stats.herokuapp.com/?user=Maxrodri0311&hide_border=true&theme=radical&background=0b0c10&ring=66fcf1&fire=66fcf1&currStreakLabel=66fcf1&sideLabels=c5c6c7&dates=8892b0" alt="GitHub Streak" />
+  <img height="165em" src="https://github-readme-stats.vercel.app/api?username=Maxrodri0311&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
+  <img height="165em" src="https://github-readme-streak-stats.herokuapp.com/?user=Maxrodri0311&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </div>
 <br>
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Maxrodri0311&layout=donut&hide_title=true&langs_count=6&theme=radical&bg_color=0b0c10&text_color=c5c6c7&icon_color=66fcf1&title_color=45a29e&border_color=1f2833" alt="Top Languages" />
+  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=Maxrodri0311&theme=tokyo-night&hide_border=true&area=true" alt="Activity Graph" />
+</div>
+<br>
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Maxrodri0311&layout=donut&theme=tokyonight&hide_border=true&langs_count=6" alt="Top Languages" />
 </div>
 <!-- END_DASHBOARD -->
 

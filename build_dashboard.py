@@ -40,16 +40,18 @@ def get_latest_commit_narrative():
         return "> ⚡ **Despliegues Activos:** Sincronización continua de arquitecturas y pipelines."
 
 def generate_dashboard_svgs():
-    """Genera widgets de telemetría con tema oscuro radical personalizado."""
-    theme_params = "theme=radical&bg_color=0b0c10&text_color=c5c6c7&icon_color=66fcf1&title_color=45a29e&border_color=1f2833"
-    
+    """Genera widgets de telemetría con temas oscuros ultra-estables (TokyoNight / Cyber)."""
     html = f'''<div align="center">
-  <img height="165em" src="https://github-readme-stats.vercel.app/api?username={USERNAME}&show_icons=true&hide_title=true&count_private=true&include_all_commits=true&{theme_params}" alt="GitHub Stats" />
-  <img height="165em" src="https://github-readme-streak-stats.herokuapp.com/?user={USERNAME}&hide_border=true&theme=radical&background=0b0c10&ring=66fcf1&fire=66fcf1&currStreakLabel=66fcf1&sideLabels=c5c6c7&dates=8892b0" alt="GitHub Streak" />
+  <img height="165em" src="https://github-readme-stats.vercel.app/api?username={USERNAME}&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
+  <img height="165em" src="https://github-readme-streak-stats.herokuapp.com/?user={USERNAME}&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </div>
 <br>
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username={USERNAME}&layout=donut&hide_title=true&langs_count=6&{theme_params}" alt="Top Languages" />
+  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username={USERNAME}&theme=tokyo-night&hide_border=true&area=true" alt="Activity Graph" />
+</div>
+<br>
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username={USERNAME}&layout=donut&theme=tokyonight&hide_border=true&langs_count=6" alt="Top Languages" />
 </div>'''
     return html
 
