@@ -128,12 +128,20 @@ Software Engineer and System Architect combining formal education in **Cyberdefe
 
 <!-- START_DASHBOARD -->
 <div align="center">
-  <img width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Maxrodri0311&theme=tokyonight" alt="GitHub Profile Details" />
-  <img width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Maxrodri0311&theme=tokyonight" alt="Top Languages by Commit" />
+  <table style="border: none; border-collapse: collapse; margin: auto; background: transparent;">
+    <tr style="border: none; background: transparent;">
+      <td style="border: none; padding: 4px; vertical-align: middle;" align="center">
+        <img height="195px" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Maxrodri0311&theme=tokyonight" alt="GitHub Profile Details" />
+      </td>
+      <td style="border: none; padding: 4px; vertical-align: middle;" align="center">
+        <img height="195px" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Maxrodri0311&theme=tokyonight" alt="Top Languages by Commit" />
+      </td>
+    </tr>
+  </table>
 </div>
 <br>
 <div align="center">
-  <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=Maxrodri0311&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Activity Graph" />
+  <img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=Maxrodri0311&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Activity Graph" />
 </div>
 <!-- END_DASHBOARD -->
 
