@@ -1,0 +1,23 @@
+# Environment variables & secrets
+.env
+*.env
+keys
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# Playwright & Artifacts
+.playwright/
+*.pdf
+node_modules/
+dist/
+build/
