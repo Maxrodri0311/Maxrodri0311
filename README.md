@@ -110,25 +110,17 @@ flowchart LR
 
 ---
 
-### 🚀 Core Engineering Projects (Production-Grade)
+### 🚀 Featured Production-Grade & Ghost Engineering Projects
 
-#### 1. [Techmind — Enterprise AI Microservices Platform](https://github.com/Maxrodri0311/techmind)
-*Decoupled microservices architecture combining Spring Boot 3 business logic with a Python FastAPI AI engine hosted on Oracle Cloud Infrastructure (OCI).*
-* **Memory & Latency Optimization:** Reduced AI inference RAM from **2.5 GB to 110 MB (-82%)** and latency from **1500ms to <18ms** by implementing INT8 model quantization with ONNX Runtime and NumPy vectorized operations.
-* **Deterministic Integrity:** Enforced 100% data deduplication and referential integrity across MySQL tables using content-based **SHA-256 cryptographic hashing**.
-* **Zero-Trust Network:** Secured all database and AI inference services inside an isolated OCI Virtual Cloud Network (VCN) with **zero public IPs**, routing outbound traffic strictly through a secure NAT Gateway.
-
-#### 2. [Data Sentinel — Zero-Trust Financial Compliance & Ledger](https://github.com/Maxrodri0311/data-sentinel)
-*Financial audit and anomaly detection system built with Clean Architecture, Domain-Driven Design (DDD), and tamper-proof ledgering.*
-* **Non-Blocking Inference:** Maintained sub-3ms API latency during CPU-intensive machine learning by offloading Isolation Forest and SHAP calculations to a `ProcessPoolExecutor`.
-* **Tamper-Proof Auditability:** Engineered an append-only audit trail with PL/pgSQL triggers and cryptographic hash-chaining, achieving a **100% rejection rate** against unauthorized UPDATE and DELETE attempts.
-* **Cryptographic PII Protection:** Shielded sensitive financial data with **AES-256-GCM** encryption and zero-downtime key rotation support.
-
-#### 3. [Aegis Stream — Real-Time SIEM Telemetry Pipeline](https://github.com/Maxrodri0311/aegis-stream)
-*Event-driven telemetry ingestion engine designed for massive log streams and real-time security analytics.*
-* **Zero-Loss Throughput:** Handled peak ingestion rates of **50,000 events/second** without event loop starvation via asynchronous backpressure controls (`aiokafka` + `asyncio`).
-* **Compaction Deduplication:** Eliminated duplicate telemetry records during merge compaction phases using ClickHouse’s native `ReplacingMergeTree` engine.
-* **Zero-Copy Ingestion:** Streamlined streaming pipelines by utilizing ClickHouse native Kafka Engines connected directly to reactive Materialized Views.
+| Project | Core Domain & Stack | Live Demo & Artifacts | Highlights |
+| :--- | :--- | :--- | :--- |
+| **[Talent Acquisition AI Engine (Apply on Job)](https://github.com/Maxrodri0311/talent-acquisition-ai-engine)** | *Applied AI • Vector Search • DuckDB OLAP* | **[🌐 Live Web Demo](https://Maxrodri0311.github.io/talent-acquisition-ai-engine/)** | Two-stage AI matching (12k/s), Zero-Trust prompt firewall, NYC Law 144 compliance, 3-tier triage. |
+| **[Data Sentinel](https://github.com/Maxrodri0311/Data_Sentinel)** | *FinTech • XAI Fraud • AES-256-GCM* | **[🌐 Live Web Demo](https://Maxrodri0311.github.io/Data_Sentinel/)** | Multi-tolerance reconciliation ($148\text{k+ tx}$), SHAP TreeExplainer, immutable cryptographic hash-chain. |
+| **[Healthcare AI Anomaly Engine](https://github.com/Maxrodri0311/Healthcare_Anomaly_Public)** | *Unsupervised ML • Plotly.js • Healthcare* | **[🌐 Live Web Demo](https://Maxrodri0311.github.io/Architect-AI-Anomaly-Engine/)** | Isolation Forest multi-dimensional outlier detection on 50k+ Medicare claims (<3ms/row). |
+| **[SaaS Churn Intelligence](https://github.com/Maxrodri0311/SaaS-Customer-Retention-Analytics-Pipeline-with-ML)** | *Predictive ML • Survival Cohorts • Scikit* | **[🌐 Live Web Demo](https://Maxrodri0311.github.io/SaaS-Customer-Retention-Analytics-Pipeline-with-ML/)** | SMOTE-balanced Logistic Regression (AUC 0.842), 24-month cohort survival curves protecting $1.42M ARR. |
+| **[Aegis Stream](https://github.com/Maxrodri0311/aegis-stream)** | *Streaming • Redpanda • ClickHouse OLAP* | **[🌐 Live Web Demo](https://Maxrodri0311.github.io/aegis-stream/)** | Real-time SIEM event streaming (>50,000 evts/s) with ClickHouse MergeTree columnar partitioning. |
+| **[TechMind](https://github.com/Maxrodri0311/techmind)** | *FastAPI • ONNX INT8 • Spring Boot • OCI* | **[🏛️ Architecture Spec](https://github.com/Maxrodri0311/techmind)** | Dual-Subnet OCI Cloud DMZ, local ONNX INT8 inference (<18ms), Groq LPU resilient cascading. |
+| **[Logistics Analytics Hub](https://github.com/Maxrodri0311/Logistics-and-Shipping-Executive-Analytics-Hub)** | *DuckDB • Kimball Star Schema • Power BI* | **[📊 25+ DAX Measures](https://github.com/Maxrodri0311/Logistics-and-Shipping-Executive-Analytics-Hub)** | In-memory OLAP data mart, C-Level Excel workbook, and sub-15ms spatial query views. |
 
 ---
 
