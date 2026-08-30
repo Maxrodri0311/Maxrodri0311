@@ -104,7 +104,7 @@ async def generate_pdf():
         pdf_path = "Resume_Maximiliano_Rodriguez.pdf"
         await page.pdf(path=pdf_path, format="A4", print_background=True)
         await browser.close()
-        print(f"✅ PDF generado exitosamente en: {pdf_path}")
+        print(f"[+] PDF generado exitosamente en: {pdf_path}")
 
 if __name__ == "__main__":
     asyncio.run(generate_pdf())

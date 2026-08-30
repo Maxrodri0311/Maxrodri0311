@@ -45,17 +45,17 @@ def generate_dashboard_svgs():
   <table style="border: none; border-collapse: collapse; margin: auto; background: transparent;">
     <tr style="border: none; background: transparent;">
       <td style="border: none; padding: 4px; vertical-align: middle;" align="center">
-        <img height="195px" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username={USERNAME}&theme=tokyonight" alt="GitHub Profile Details" />
+        <img height="180px" src="https://github-readme-stats.vercel.app/api?username={USERNAME}&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0b0f19&title_color=38bdf8&icon_color=38bdf8&text_color=94a3b8" alt="GitHub Stats" />
       </td>
       <td style="border: none; padding: 4px; vertical-align: middle;" align="center">
-        <img height="195px" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username={USERNAME}&theme=tokyonight" alt="Top Languages by Commit" />
+        <img height="180px" src="https://github-readme-stats.vercel.app/api/top-langs/?username={USERNAME}&layout=compact&theme=tokyonight&hide_border=true&bg_color=0b0f19&title_color=38bdf8&text_color=94a3b8" alt="Top Languages" />
       </td>
     </tr>
   </table>
 </div>
 <br>
 <div align="center">
-  <img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username={USERNAME}&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Activity Graph" />
+  <img width="96%" src="https://github-readme-streak-stats.herokuapp.com/?user={USERNAME}&theme=tokyonight&hide_border=true&background=0b0f19&stroke=38bdf8&ring=38bdf8&fire=38bdf8&currStreakNum=38bdf8" alt="GitHub Streak" />
 </div>'''
     return html
 
