@@ -213,7 +213,7 @@ flowchart LR
 
 ### 🛠️ Currently Engineering & Live Stream
 <!-- START_CURRENT_ENGINEERING -->
-> ⚡ **Despliegues Activos:** Sincronización continua de arquitecturas y pipelines en producción.
+> ⚡ **Despliegues Activos:** Mantenimiento de arquitecturas y pipelines en producción.
 <!-- END_CURRENT_ENGINEERING -->
 
 <br>
